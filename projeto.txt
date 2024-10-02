@@ -1,0 +1,22 @@
+Nossa queride instrutora propôs que você crie outro CRUD. 👩‍💻
+
+Pode ser um sistema para gerenciar os livros que temos em casa, onde a pessoa poderá cadastrar os livros, editar os livros, excluir os livros e listar todos os livros cadastrados. Mas também qualquer outra ideia que achar mais legal e viável para você adicionar ao seu portfólio.
+
+📌O model de um livro pode ser:
+
+id: gerado automático pelo mongo
+
+nome: string
+
+autora: string
+
+categoria: string
+
+
+Mas o principal é que esse projeto precisa estar integrado com o MongoDB, ter a versão no Github e estar deployado no Render.
+
+Ou seja, dentro do MongoDb, dentro da organização, crie uma nova database e siga o tutorial da aula de integração com o MongoDB usando o mongoose.
+
+Quando você finalizar o projeto e tiver a URL de produção, os testes do CRUD pelo insomnia devem estar funcionando corretamente.🤩
+
+Pronte para ir além?🚀👩🏽‍🚀
