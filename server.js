@@ -15,7 +15,7 @@ app.get('/', (request, response) => {
     response.send("Hello World!")
 })
 
-app.listen(port, () =>{
+app.listen(PORT, () =>{
     console.log(`Servidor rodando na porta ${PORT}`);
     
 });
