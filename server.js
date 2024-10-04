@@ -5,7 +5,7 @@ import connectionDB from './src/config/db.js';
 connectionDB();
 
 const app = express();
-const port = process.env.port || 3000;
+const PORT = process.env.PORT || 3000;
 
 app.use(express.json());
 
@@ -16,6 +16,6 @@ app.get('/', (request, response) => {
 })
 
 app.listen(port, () =>{
-    console.log(`Servidor rodando na porta ${port}`);
+    console.log(`Servidor rodando na porta ${PORT}`);
     
 });
