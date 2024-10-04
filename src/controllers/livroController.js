@@ -1,12 +1,6 @@
 import { response } from "express";
 import Livro from "../models/livroModel.js";
 
-const books = [
-    { id: 1, title: "O Hobbit", author: "J.R.R. Tolkien" },
-    { id: 2, title: "1984", author: "George Orwell" },
-    { id: 3, title: "Duna", author: "Frank Herbert" },
-  ];
-
 export const criarLivro = async (request, response) =>{
     try {
         const novoLivro = new Livro(request.body);
