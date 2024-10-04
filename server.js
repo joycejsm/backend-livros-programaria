@@ -1,6 +1,8 @@
 import express from 'express';
 import livroRoutes from './src/routes/livroRoutes.js';
+import connectionDB from './src/config/db.js';
 
+connectionDB();
 
 const app = express();
 const port = 3000;
