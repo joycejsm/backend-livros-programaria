@@ -34,8 +34,8 @@ O projeto consiste em um sistema para gerenciar os livros que temos em casa, ond
 ## 📌 Funcionalidades
 
 Esta API possui as seguintes funcionalidades:
-  - **Listar livros** - Visualizar todas as mulheres cadastraas.
-  - **Adicionar livro** - Cadastra uma nova mulher com os atributos: nome, imagem, minibio e citação.
-  - **Editar/Atualizar livro** - Atualizar e alterar informações sobre uma mulher específica.
-  - **Deletar livro** - Apagar uma mulher do banco de dados.
+  - **Listar livros** - Visualizar todas os livros cadastrados.
+  - **Adicionar livro** - Cadastra um novo livro com os atributos: id, nome, autor(a) e categoria.
+  - **Editar/Atualizar livro** - Atualizar e alterar informações sobre uma livro específico.
+  - **Deletar livro** - Apagar um livro do banco de dados.
     
